@@ -1,12 +1,12 @@
 from django.conf.urls import url
-from usuarios.views import Bienvenidos
+from . import views
 
 
 
 urlpatterns=[
     url(
         regex=r'^Bienvenidos/$',
-        view=Bienvenidos,
+        view=views.Bienvenidos,
         name='Bienvenidos_a _SDAF',
     )
 
