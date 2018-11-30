@@ -1,3 +1,5 @@
 from django.db import models
+from django.contrib.auth import get_user_model
+from django.core.validators import MaxValuesValidators
 
-# Create your models here.
+user= get_user_model()
