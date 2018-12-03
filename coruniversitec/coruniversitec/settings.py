@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'coruniversitec.coruniversitec.usuarios',
-    'coruniversitec.coruniversitec.clientes',
+    'coruniversitec.usuarios',
+    'coruniversitec.clientes',
 ]
 
 MIDDLEWARE = [
