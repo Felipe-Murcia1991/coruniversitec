@@ -8,4 +8,4 @@ class Cliente(models.Model):
     apellido=models.CharField(max_length=50)
     telefono=models.IntegerField()
     edad=models.IntegerField()
-    coreo=models.EmailField()
+    correo=models.EmailField()
