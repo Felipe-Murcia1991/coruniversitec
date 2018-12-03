@@ -7,7 +7,7 @@ class Empleado(models.Model):
     apellido=models.CharField(max_length=50)
     telefono=models.IntegerField()
     cargo=models.CharField(max_length=50)
-    coreo=models.EmailField()
+    correo=models.EmailField()
 
 class Elegir(models.Model):
     documento=models.ForeignKey(Empleado, on_delete=models.CASCADE)
