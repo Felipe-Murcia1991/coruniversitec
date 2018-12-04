@@ -1,0 +1,76 @@
+body{
+    font-family: 'Luckiest+Guy';
+    font-size: 16px;
+    font-weight:300;
+    color:rgb(255, 255, 255);
+    line-height:30px;
+    text-align: center;
+    background-color:rgb(29, 3, 90);
+
+}
+
+strong{
+    font-weight: 700;
+}
+a,a:hover, a:focus{
+
+    text-decoration: aqua;
+}
+
+
+h1,h3,h5{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 60;
+    line-height: 20px;
+    
+}
+
+
+.my-content{
+
+    padding: 100px 0 170px 0;
+}
+.my-content .mydescription{
+    margin: 20px 0 10px 0;
+}
+.my-content .mydescription p {
+    opacity:  0.8;
+}
+.myform-cont {
+    margin-top: 35px; 
+}
+.myform-top {
+
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgb(16, 0, 61);
+    border-radius: 10px 10px 0 0;
+
+}
+.myform-top-left p {
+    opacity:  0.8;    
+}
+.myform-top-rigth{
+    float: right;
+    width: 25%;
+    padding-top: 25px;
+    font-size: 66px;
+    text-align: right;
+    opacity: 0.2;    
+}
+.myform-bottom{
+
+    padding: 25px 25px 30px 25px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 10px 10px;
+}
+
+.myform-bottom .mybtn{
+    width: 100px;
+}
+.centerdiv {
+
+    margin-right: -15px;
+    margin-left: 90px;
+}
