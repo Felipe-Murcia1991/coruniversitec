@@ -5,7 +5,7 @@ body{
     color:rgb(255, 255, 255);
     line-height:30px;
     text-align: center;
-    background-color:rgb(29, 3, 90);
+    background-color:rgb(11, 102, 145);
 
 }
 
@@ -25,6 +25,10 @@ h1,h3,h5{
     line-height: 20px;
     
 }
+.padre {
+    display: flex;
+    justify-content: center;
+  }
 
 
 .my-content{
@@ -44,7 +48,7 @@ h1,h3,h5{
 
     overflow: hidden;
     padding: 0 25px 15px 25px;
-    background: rgb(16, 0, 61);
+    background: rgb(4, 5, 66);
     border-radius: 10px 10px 0 0;
 
 }
@@ -62,8 +66,8 @@ h1,h3,h5{
 .myform-bottom{
 
     padding: 25px 25px 30px 25px;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 0 0 10px 10px;
+    background: rgb(4, 5, 66);
+    border-radius: 10 10 0px 0px;
 }
 
 .myform-bottom .mybtn{
@@ -74,3 +78,92 @@ h1,h3,h5{
     margin-right: -15px;
     margin-left: 90px;
 }
+input[type="text"],
+input[type="contraseña"],
+textarea,
+textarea.form.control{
+    height: 50px;
+    vertical-align:middle;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 50px;
+}
+input[type="text"]:focus,
+input[type="contraseña"]:focus,
+textarea:focus,
+textarea.form.control:focus{
+    background: #fff;
+    border: 2px solid #1AAE88;
+
+}
+
+button.mybtn{
+    height: 50px;
+    background: #1AAE88;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;   
+    color: #fff; 
+    border-radius: 4px;border-radius: 4px;border-radius: 4px;border-radius: 4px;
+}
+button.mybtn:hover,button.mybtn:active{
+
+    opacity: 0.8;
+    color: #fff;
+    border-radius: 4px;border-radius: 4px;border-radius: 4px;border-radius: 4px;
+}
+
+button.mybtn:focus{
+    opacity: 0.7;
+    color: #fff;
+    background: rgb(30, 0, 201);
+}
+.mysocial.login{
+
+    margin-top: 35px;
+}
+.mysocial.login-buttons{
+    display: inline-block;
+    height: 50px;
+    margin: 5;
+    padding: 15px 20px 0 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    border-radius: 4px;border-radius: 4px;border-radius: 4px;border-radius: 4px;
+}
+.mybtn-social:hover, .mybtn-social:focus, .mybtn-social:active:focus{
+    outline: 0;
+    opacity: 0,6;
+    background: rgba(0, 0, 0, 0.3);
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
